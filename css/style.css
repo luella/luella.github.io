@@ -1,0 +1,106 @@
+/* Body */
+body {
+  font-family: 'Slabo 27px', serif;
+  font-family: 'Roboto', sans-serif;
+  background: #eee;
+}
+
+/* Header */
+.header {
+  padding-bottom: 1rem;
+  border-bottom: .05rem solid #e5e5e5;
+}
+
+.header a {
+  color: #333;
+}
+
+.header a:hover {
+  color: #298cca;
+}
+
+@media screen and (min-width: 48em) {
+  .header {
+    margin-bottom: 2rem;
+  }
+}
+
+/* Content */
+.content {
+  margin-top: 50px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Banner */
+.banner {
+  font-family: 'Roboto', sans-serif;
+}
+
+.banner-image {
+  width: 100%;
+}
+
+.banner-body {
+  text-align: center;
+}
+
+.banner-title {
+  font-size: 28px;
+}
+
+.banner-subtitle {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+legend {
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 21px;
+  line-height: 40px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+/* Footnotes */
+.footnote {
+  font-size: 10px;
+  margin-top: 30px;
+}
+
+
+/* Research Page */
+.research .banner {
+  text-align: center;
+}
+
+.research .banner-image {
+  width: 250px;
+  margin: 0 auto;
+}
+
+/* Map Features */
+.map{
+  text-align: center;
+}
+
+/* Bootstrap Overrides */
+a {
+  color: #298cca;
+}
+
+.nav-pills .nav-item.show .nav-link,
+.nav-pills .nav-link.active {
+  background-color: #0275d8;
+}
+
+.container {
+  background: white;
+  padding: 50px;
+  min-height:100%;
+}
+
+@media (min-width: 768px) {
+.container {
+max-width: 768px;
+}
+}
